@@ -51,7 +51,7 @@ let _ = test_square () ;;
 (* To actually execute the test, you need to run this program. First 
    you'll need to compile the file with 
 
-     % ocamlbuild lab1_tests.byte
+     % ocamlbuild -use-ocamlfind lab1_tests.byte
 
    Once you have a compiled file, you need to run the compiled code:
 
