@@ -151,7 +151,7 @@ expressions below? Test your solution by uncommenting the examples
 typing error is generated.
 ......................................................................*)
 
-(*  <--- After you've replaced the ???s, remove this start of comment line
+(* <--- After you've replaced the ???s, remove this start-comment line
 
 let exercise6a : ??? = 42 ;;
 
@@ -168,8 +168,8 @@ let exercise6d : ??? =
 let exercise6e : ??? =
   fun x -> fun y -> x + int_of_float y ;;
 
-and remove this whole end of comment line too. ---->  *)
-	
+and remove this whole end-comment line too. ---->  *)
+        
 (*======================================================================
 Part 3: First-order functional programming
 
@@ -205,10 +205,10 @@ let square (x : int) : int  =
 let exercise7 = 0 ;;
 
 (*......................................................................
-Exercise 8: Define a function, `exclaim`, that, given a string, "exclaims"
-it by capitalizing it and suffixing an exclamation mark. The
-String.capitalize function may be helpful here. For example, you should
-get the following behavior:
+Exercise 8: Define a function, `exclaim`, that, given a string,
+"exclaims" it by capitalizing it and suffixing an exclamation mark.
+The String.capitalize_ascii function may be helpful here. For example,
+you should get the following behavior:
 
    # exclaim "hello" ;;
    - : string = "Hello!"
