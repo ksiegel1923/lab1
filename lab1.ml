@@ -99,7 +99,7 @@ Exercise 3: Consider the following abstract syntax tree:
 that is, the negation of the result of subtracting 3 from 5.  To
 emphasize that the two operators are distinct, we've used the concrete
 symbol `~-` (a tilde followed by a hyphen character, an alternative
-spelling of the negation operation; see the Pervasives module) to notate
+spelling of the negation operation; see the Stdlib module) to notate
 the negation.
 
 How might this be expressed in the concrete syntax of OCaml using the
